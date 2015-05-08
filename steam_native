@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# made by fuken
+# in order to use this you have to install steam-libs
+# see https://wiki.archlinux.org/index.php/Steam#Using_native_runtime
+
+LD_LIBRARY_PATH="/usr/lib:/usr/lib32:/usr/lib64" STEAM_RUNTIME=0 steam "$@"
