@@ -206,7 +206,7 @@ unset use_color safe_term match_lhs
 # }}}
 
 # added by travis gem
-if [ -f /home/mloskot/.travis/travis.sh ]; then
-    source /home/mloskot/.travis/travis.sh
+if [ -f $HOME/.travis/travis.sh ]; then
+    source $HOME/.travis/travis.sh
 fi
 
